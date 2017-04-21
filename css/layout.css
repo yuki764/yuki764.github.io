@@ -12,9 +12,7 @@ body {
 }
 
 div.content {
-	width: 40em;
 	margin: 0 auto;
-	padding: 2em;
 	background-color: rgba(255,255,255,0.5);
 }
 
@@ -24,6 +22,87 @@ h2 {
 }
 
 footer {
-	margin: 5em 0 0 0;
+	margin: 4em 0 0 0;
+	padding: 1em 1em 1em 1em;
 	font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+	div.content {
+		width: 40em;
+		padding: 2em;
+	}
+}
+@media only screen and (max-width: 767px) {
+	body {
+		margin: 0;
+	}
+
+	div.content {
+		padding: 0;
+	}
+
+	h1 {
+		padding 10px;
+		margin: 0;
+	}
+	h2 {
+		border-left: 3px solid #000000;
+		border-bottom: 1px solid #000000;
+	}
+	p {
+		margin: 0;
+	}
+	span.delimiter {
+		display: none;
+	}
+
+	a.outlink {
+		display: block;
+		width: max-width;
+		padding: 1em 0 1em 1em;
+		text-decoration: none;
+		color: rgb(255,255,255);
+		font-weight: bold;
+	}
+	a.outlink:hover {
+		padding: 1em 0 1em 2em;
+	}
+
+	a.twitter {
+		background-color: rgba(85,172,238,0.5);
+	}
+	a.twitter:hover {
+		background-color: rgba(85,172,238,1);
+	}
+	a.tumblr {
+		background-color: rgba(54,70,93,0.5);
+	}
+	a.tumblr:hover {
+		background-color: rgba(54,70,93,1);
+	}
+	a.lastfm {
+		background-color: rgba(185,0,0,0.5);
+	}
+	a.lastfm:hover {
+		background-color: rgba(185,0,0,1);
+	}
+	a.twitch {
+		background-color: rgba(100,65,165,0.5);
+	}
+	a.twitch:hover {
+		background-color: rgba(100,65,165,1);
+	}
+	a.github {
+		background-color: rgba(23,21,21,0.5);
+	}
+	a.github:hover {
+		background-color: rgba(23,21,21,1);
+	}
+	a.kkt {
+		background-color: rgba(252,33,125,0.5);
+	}
+	a.kkt:hover {
+		background-color: rgba(252,33,125,1);
+	}
 }
