@@ -4,7 +4,6 @@ html {
 
 body {
 	font-family: Tahoma, Verdana, Arial, sans-serif;
-	text-indent: 1em;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -17,8 +16,13 @@ div.content {
 }
 
 h2 {
+	text-indent: 1em;
 	border-left: 3px solid #000000;
 	border-bottom: 1px solid #000000;
+}
+
+p {
+	text-indent: 1em;
 }
 
 footer {
@@ -50,6 +54,9 @@ footer {
 		border-left: 3px solid #000000;
 		border-bottom: 1px solid #000000;
 	}
+	h3 {
+		text-indent: 1em;
+	}
 	p {
 		margin: 0;
 		padding: 0 16px;
@@ -59,6 +66,11 @@ footer {
 	}
 	span.delimiter {
 		display: none;
+	}
+	span.gamename {
+		padding: 0.5em;
+		font-weight: bold;
+		display: block;
 	}
 
 	a.outlink {
@@ -108,5 +120,29 @@ footer {
 	}
 	a.kkt:hover {
 		background-color: rgba(252,33,125,1);
+	}
+	a.xiv_setuu {
+		background-color: rgba(129,59,60,0.5);
+	}
+	a.xiv_setuu:hover {
+		background-color: rgba(129,59,60,1);
+	}
+	a.xiv_sesetsu {
+		background-color: rgba(64,110,51,0.5);
+	}
+	a.xiv_sesetsu:hover {
+		background-color: rgba(64,110,51,1);
+	}
+	a.aikt_yuki {
+		background-color: rgba(232,56,102,0.5);
+	}
+	a.aikt_yuki:hover {
+		background-color: rgba(232,56,102,1);
+	}
+	a.aikt_akira {
+		background-color: rgba(5,96,169,0.5);
+	}
+	a.aikt_akira:hover {
+		background-color: rgba(5,96,169,1);
 	}
 }
