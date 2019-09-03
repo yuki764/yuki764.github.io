@@ -1,4 +1,4 @@
-body.lala_maid:before {
+body.lala_maid::before {
 	background-image: url('/img/lala_maid.jpg');
 }
 body.lala_goku::before {
