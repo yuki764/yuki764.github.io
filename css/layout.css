@@ -125,17 +125,17 @@ footer {
 	a.twitch:hover {
 		background-color: rgba(100,65,165,1);
 	}
+	a.instagram {
+		background-color: rgba(193,53,132,1);
+	}
+	a.instagram:hover {
+		background-color: rgba(193,53,132,0.5);
+	}
 	a.github {
 		background-color: rgba(23,21,21,0.5);
 	}
 	a.github:hover {
 		background-color: rgba(23,21,21,1);
-	}
-	a.kkt {
-		background-color: rgba(252,33,125,0.5);
-	}
-	a.kkt:hover {
-		background-color: rgba(252,33,125,1);
 	}
 	a.xiv_setuu {
 		background-color: rgba(129,59,60,0.5);
@@ -148,17 +148,5 @@ footer {
 	}
 	a.xiv_sesetsu:hover {
 		background-color: rgba(64,110,51,1);
-	}
-	a.aikt_yuki {
-		background-color: rgba(232,56,102,0.5);
-	}
-	a.aikt_yuki:hover {
-		background-color: rgba(232,56,102,1);
-	}
-	a.aikt_akira {
-		background-color: rgba(5,96,169,0.5);
-	}
-	a.aikt_akira:hover {
-		background-color: rgba(5,96,169,1);
 	}
 }
