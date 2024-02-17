@@ -107,6 +107,12 @@ footer {
 	a.twitter:hover {
 		background-color: rgba(85,172,238,1);
 	}
+	a.bluesky {
+		background-color: rgba(0,133,255,0.5);
+	}
+	a.bluesky:hover {
+		background-color: rgba(0,133,255,1);
+	}
 	a.tumblr {
 		background-color: rgba(54,70,93,0.5);
 	}
